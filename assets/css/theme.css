@@ -23013,7 +23013,8 @@ iframe {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  animation: shake 0.5s ease-in-out infinite; /* Apply continuous shake */
+  animation: shake 0.5s ease-in-out infinite;
+  /* Apply continuous shake */
 }
 
 /* WhatsApp icon styling */
@@ -23035,15 +23036,19 @@ iframe {
   0% {
     transform: translatey(0);
   }
+
   25% {
     transform: translatey(-5px);
   }
+
   50% {
     transform: translatey(5px);
   }
+
   75% {
     transform: translatey(-5px);
   }
+
   100% {
     transform: translatey(0);
   }
@@ -23052,7 +23057,8 @@ iframe {
 /* Media Query for Mobile (Adjust for smaller screens) */
 @media (max-width: 768px) {
   #whatsapp-icon {
-    left: 10px; /* Position on the left for small screens */
+    left: 10px;
+    /* Position on the left for small screens */
     right: initial;
   }
 }
@@ -23061,11 +23067,29 @@ iframe {
 
 
 @media (max-width: 576px) {
-     .respo {
-      margin-left: 0 !important;
-     }
-     .activity img {
-      width: 100%;
-      padding: 0;
+  .respo {
+    margin-left: 0 !important;
+  }
+
+  .activity img {
+    width: 100%;
+    padding: 0;
   }
 }
+
+.call-us-now {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 10px;
+  color: #010148;
+  font-size: 14px;
+  font-weight: 900;
+  position: relative;
+  z-index: 10000;
+}
+
+.call-us-now span {
+     margin-right: 10px;
+}
+
